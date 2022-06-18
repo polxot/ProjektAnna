@@ -1,0 +1,68 @@
+.promo {
+   padding-top: 186px;
+   padding-bottom: 186px;
+}
+.promo-left, 
+.promo-right {
+   flex: 0 0 49%;
+   color: #fff;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.promo-left {
+   background-image: url(../../img/promo/promo-left.png);
+   padding: 116px 50px ;
+   margin-right: 20px;
+}
+.promo-right {
+   background-image: url(../../img/promo/promo-right.png);
+   padding: 105px 50px;
+}
+.promo-right .discription {
+   max-width: 299px;  
+   margin-bottom: 20px;
+}
+.sale {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 900;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+
+   display: inline-block;
+   padding: 5px 19px;
+   margin-bottom: 3px;
+
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background: #F37335;
+   border-radius: 14px;
+}
+.cost {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 900;
+   font-size: 60px;
+   line-height: 76px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-bottom: 8px;
+}
+.discription {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24px;
+   color: #FAF9F9;
+}
+.promo-left .discription {
+      max-width: 392px;  
+}
+.free {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 56px;
+   color: #FFFFFF;
+   margin-bottom: 10px;
+}

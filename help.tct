@@ -1,0 +1,15 @@
+https://github.com/polxot/ProjektAnna.git   -git
+
+$ git config --global user.name "Pavel Tamarin"
+$ git config --global user.email tampol40@gmail.com
+
+git config --list --show-origin       -проверка конфиграции
+
+git status
+
+
+git status
+
+git commit -m "Добавка проекта в git"
+git remote add origin https://github.com/polxot/ProjektAnna.git
+git push -u origin master

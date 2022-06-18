@@ -1,0 +1,72 @@
+
+h1 {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 800;
+   font-size: 120px;
+   line-height: 120px;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+h1 span {
+   font-family: 'Nunito', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 38px;
+   text-transform: uppercase;
+   color: #FBB731;
+   margin-bottom: 10px;
+   display: block;
+}
+
+.main a, 
+.promo a {
+   background-color: #FBB731;
+   border-radius: 5px;
+   padding: 20px 45px;
+   text-decoration: none;
+   color: #1E2F40;
+
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   text-transform: uppercase;
+   display: inline-block;
+}
+.main {
+   background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.main img {
+   width: 829px;
+   position: absolute;
+   right: -168px;
+}
+
+.text {
+   color: #FAF9F9;
+   flex: 0 0 580px;
+   padding-top: 170px;
+   padding-bottom: 170px;
+}
+.text p {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 1.4;
+   color: #DEDEDE;
+   margin-bottom: 42px;
+}
+
+.visual {
+   flex-grow: 1;
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+}
+.bg {
+   width: 432px;
+   height: 100%;
+   background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+border-radius: 5px;
+}
